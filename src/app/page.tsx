@@ -1,101 +1,159 @@
+'use client';
+
+import { Suspense } from 'react'; 
 import Image from "next/image";
+import { motion } from "framer-motion";
+import NameParameter from "@/components/NameParameter";
+import { useSearchParams } from "next/navigation";
+import { IconMail, IconUser } from "@tabler/icons-react";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const searchParams = useSearchParams();
+  const to = searchParams.get("to");
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+  return (
+    <Suspense fallback={<div>Loading...</div>}> 
+      <div className="relative flex flex-col max-w-md m-auto overflow-hidden">
+        <Image
+          src="/backgroundSampul.png"
+          alt="backgroundSampul"
+          width={1080}
+          height={1920}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <div className="relative z-10 max-w-md flex flex-col h-screen">
+          <div className="absolute top-[16%] w-full text-center z-30">
+            <h1 className="text-xl font-semibold text-[#2a374a]">
+              بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+            </h1>
+          </div>
+          <div className="absolute top-[26%] w-full text-center z-30">
+            <h2 className=" text-4xl font-medium text-[#2a374a] font-adam">
+              Andrean
+            </h2>
+            <h2 className=" text-4xl font-medium text-[#2a374a] font-adam">&</h2>
+            <h2 className=" text-4xl font-meidum text-[#2a374a] font-adam">
+              Mutmainah
+            </h2>
+            <div className=" w-full flex flex-col justify-center items-center pt-20">
+              <h3 className="text-sm flex px-4 py-1 gap-2 font-semibold rounded-fullfont-meidum text-[#2a374a] font-poppins">
+                Kpd. Bpk/Ibu/Saudara/i
+              </h3>
+              <h3 className="text-xs items-center flex px-4 py-1 gap-2 font-semibold mb-5 rounded-full bg-blue-300/30 backdrop-blur-sm font-meidum text-[#3d6299] font-poppins">
+                <IconUser size={20} color="#2a374a" />
+                <NameParameter />
+              </h3>
+              <a
+                className="w-2/4 h-10 text-sm gap-2 text-[#2a374a] bg-white/20 flex justify-center items-center backdrop-blur-sm border border-transparent rounded-2xl hover:shadow-lg transition duration-200 shadow-black font-bold"
+                href={`/Andrean-Mutmainah?to=${to || "All"}`}
+              >
+                <IconMail size={20} color="#2a374a" />
+                Buka Undangan
+              </a>
+            </div>
+          </div>
+
+          <Image
+            src="/gapuraislamic.png"
+            alt="gapuraislamic"
+            width={1080}
+            height={540}
+          />
+
+          <Image
+            src="/rumput-bawah.png"
+            alt="rumput-bawah"
+            width={400}
+            height={300}
+            className="absolute bottom-0 left-0 w-full"
+          />
+
+          <Image
+            src="/rumput-bawah.png"
+            alt="rumput-kanan"
+            width={1080}
+            height={300}
+            className="absolute bottom-0 right-0 w-full transform scale-x-[-1]"
+          />
+
+          <motion.div
+            animate={{
+              y: [0, 10, 0],
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -left-[30%] top-[26%] transform -translate-y-1/2 z-20"
           >
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/cloud-megamendung.png"
+              alt="megamendung kiri"
+              width={200}
+              height={200}
             />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          </motion.div>
+
+          <motion.div
+            animate={{
+              y: [0, 10, 0],
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -right-[30%] top-[50%] transform -translate-y-1/2 z-20"
           >
-            Read our docs
-          </a>
+            <Image
+              src="/cloud-megamendung-right.png"
+              alt="megamendung kanan"
+              width={200}
+              height={200}
+            />
+          </motion.div>
+
+          <motion.div
+            animate={{
+              rotate: [0, 2, -2, 1, -1, 0],
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -left-[30%] top-1/2 transform -translate-y-1/2 z-10"
+          >
+            <Image
+              src="/cover-flower-one.png"
+              alt="bunga kiri"
+              width={200}
+              height={200}
+            />
+          </motion.div>
+
+          <motion.div
+            animate={{
+              rotate: [0, -2, 2, -1, 1, 0],
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            className="absolute -right-[30%] top-1/2 transform -translate-y-1/2 z-10"
+          >
+            <Image
+              src="/cover-flower-one-right.png"
+              alt="bunga kanan"
+              width={200}
+              height={200}
+            />
+          </motion.div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+    </Suspense>
   );
 }
