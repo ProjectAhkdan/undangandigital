@@ -105,14 +105,13 @@ export default function SectionTwo() {
             className="absolute top-[48%] w-full text-center z-30"
           >
             <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
-              Andrean Pratama
+              Andrean Pratama, M.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
               Putra Bungsu dari
               <div className="pt-3">
                 <p className="font-medium">Bapak M Saleh &</p>
                 <p className="font-medium">Ibu Ernawati</p>
-                <p className="font-medium">Dari Garden City Residence</p>
               </div>
             </h4>
           </motion.div>
@@ -154,14 +153,13 @@ export default function SectionTwo() {
             className="absolute top-[116%] w-full text-center z-30"
           >
             <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
-              Mutmainah
+              Mutmainah, S.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
               Putri Bungsu dari
               <div className="pt-3">
                 <p className="font-medium">Bapak Hikmah &</p>
                 <p className="font-medium">Ibu Arfah</p>
-                <p className="font-medium">Dari Rajeg Mulya</p>
               </div>
             </h4>
           </motion.div>
