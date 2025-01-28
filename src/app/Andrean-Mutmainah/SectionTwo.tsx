@@ -102,15 +102,12 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 2 }}
-            className="absolute top-[48%] w-full text-center z-30 font-adam"
+            className="absolute top-[48%] w-full text-center z-30"
           >
-            <h2 className="text-sm pt-0 text-[#2a374a] font-poppins font-semibold">
-              Andrean
-            </h2>
-            <h3 className="text-5xl font-extralight pt-5 font-script text-[#2a374a]">
+            <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
               Andrean Pratama
             </h3>
-            <h4 className="text-sm pt-4 text-[#2a374a] font-poppins font-semibold">
+            <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
               Putra Bungsu dari
               <div className="pt-3">
                 <p className="font-medium">Bapak M Saleh &</p>
@@ -126,7 +123,7 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 2.5 }}
-            className="absolute top-[75%] w-full text-center z-30 font-adam"
+            className="absolute top-[75%] w-full text-center z-30 font-greatvibes"
           >
             <h1 className="text-6xl text-[#2a374a]">&</h1>
           </motion.div>
@@ -154,15 +151,12 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 3.5 }}
-            className="absolute top-[116%] w-full text-center z-30 font-adam"
+            className="absolute top-[116%] w-full text-center z-30"
           >
-            <h2 className="text-sm pt-0 text-[#2a374a] font-poppins font-semibold">
-              Mutmainah
-            </h2>
-            <h3 className="text-5xl font-extralight pt-5 font-script text-[#2a374a]">
+            <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
               Mutmainah
             </h3>
-            <h4 className="text-sm pt-4 text-[#2a374a] font-poppins font-semibold">
+            <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
               Putri Bungsu dari
               <div className="pt-3">
                 <p className="font-medium">Bapak Hikmah &</p>
@@ -178,9 +172,9 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 3.5 }}
-            className="absolute top-[150%] w-full text-center z-30 font-adam"
+            className="absolute top-[150%] w-full text-center z-30"
           >
-            <h2 className="text-sm pt-0 text-[#2a374a] font-light font-poppins">
+            <h2 className="text-sm pt-0 text-[#2a374a] font-normal font-montserrat">
               Merupakan kehormatan serta kebahagiaan bagi kami sekeluarga
               apabila Bapak/Ibu/Saudara/i{" "}
               <span className="font-bold">
@@ -189,12 +183,12 @@ export default function SectionTwo() {
               berkenan hadir untuk memberikan doa restu kepada kedua mempelai.
             </h2>
 
-            <h4 className="text-sm pt-4 text-[#2a374a] font-poppins font-semibold">
+            <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-semibold">
               Jazakumullah Khairan Katsiran Wassalamuallaikum Warrahmatullahi
               Wabarakatuh
               <div className="pt-3">
                 <p className="font-medium">Kami yang berbahagia,</p>
-                <h3 className="text-3xl font-extralight pt-5 font-script text-[#2a374a]">
+                <h3 className="text-3xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
                   Andrean & Mutmainah
                 </h3>
                 <p className="font-medium">

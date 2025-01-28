@@ -18,10 +18,10 @@ export default function SectionOne() {
 
       <div className="font-medium text-md">
         <h1 className=" font-bold text-4xl mb-3">بسم الله الرحمن الرحيم</h1>
-        <h2 className="font-semibold">
+        <h2 className="font-semibold font-montserrat">
           Assalamu&apos;alaikum Warahmatullaahi Wabarakaatuh
         </h2>
-        <p className=" pt-3 font-light text-sm font-poppins">
+        <p className=" pt-3 font-light text-sm font-montserrat">
           Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
           Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami.
         </p>

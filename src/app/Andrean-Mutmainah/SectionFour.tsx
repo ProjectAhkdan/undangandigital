@@ -67,15 +67,15 @@ export default function SectionFour() {
       </div>
 
       <div className="relative z-10 max-w-md flex flex-col h-full w-full bg-white/15 backdrop-blur-sm border-1 shadow-lg border-black rounded-b-full rounded-t-full">
-        <div className="h-full w-full text-[#45535e] flex justify-center items-center font-script flex-col">
-          <h1 className="text-4xl text-[#45535e]">akad nikah</h1>
+        <div className="h-full w-full text-[#45535e] flex justify-center items-center flex-col">
+          <h1 className="text-5xl text-[#45535e] font-greatvibes">akad nikah</h1>
           <div className="w-32 h-[2px] bg-[#45535e] opacity-60 rounded-full mt-2"></div>
-          <h2 className="font-poppins pt-10 font-medium">SABTU, 25 FEBRUARI 2025</h2>
-          <div className="flex gap-1 flex-row text-sm font-poppins font-light items-center pt-3">
+          <h2 className="font-montserrat pt-10 font-medium">SABTU, 25 FEBRUARI 2025</h2>
+          <div className="flex gap-1 flex-row text-sm font-montserrat font-normal items-center pt-3">
             <IconClock size={20} />
             <h3>at 09:00 WIB - Selesai</h3>
           </div>
-          <div className="px-2 text-sm font-poppins font-light items-center pt-3">
+          <div className="px-2 text-sm font-montserrat font-normal items-center pt-3">
             <h3>
               Garden City Residence, Jl. Bumi Blok I3, RT.002/RW.021, Gebang Raya, Kec. Periuk, Kota Tangerang, Banten
             </h3>
@@ -83,23 +83,23 @@ export default function SectionFour() {
           <div className="pt-16">
             <a
               href="https://maps.app.goo.gl/XppjBt1fEcdX7xPv5"
-              className="border-1 border-black bg-white/15 shadow-md duration-100 transition-all ease-out px-9 py-2 rounded-full font-poppins text-sm font-semibold hover:shadow-sm"
+              className="border-1 border-black bg-white/15 shadow-md duration-100 transition-all ease-out px-9 py-2 rounded-full font-montserrat text-sm font-semibold hover:shadow-sm"
             >
               Lihat Lokasi
             </a>
           </div>
         </div>
 
-        <div className="h-full w-full text-[#45535e] flex justify-center items-center font-script flex-col">
-          <h1 className="text-4xl text-[#45535e]">Send Your Gift</h1>
+        <div className="h-full w-full text-[#45535e] flex justify-center items-center flex-col">
+          <h1 className="text-5xl text-[#45535e] font-greatvibes">Send Your Gift</h1>
           <div className="w-32 h-[2px] bg-[#45535e] opacity-60 rounded-full mt-2"></div>
-          <h2 className="font-poppins pt-10 font-medium px-5 text-sm text-center">
+          <h2 className="font-montserrat pt-10 font-medium px-5 text-sm text-center">
             Catatan kado atau kata kata terimakasih untuk yang memberikan hadiah. di menu (Amplop digital)
           </h2>
           <div className="pt-16">
             <button
               onClick={handleOpenModal}
-              className="border-1 border-black bg-white/15 shadow-md duration-100 transition-all ease-out px-9 py-2 rounded-full font-poppins text-sm font-semibold hover:shadow-sm"
+              className="border-1 border-black bg-white/15 shadow-md duration-100 transition-all ease-out px-9 py-2 rounded-full font-montserrat text-sm font-semibold hover:shadow-sm"
             >
               Berikan Hadiah Sekarang
             </button>
@@ -123,7 +123,9 @@ export default function SectionFour() {
                   <p className="mt-4 text-sm text-[#45535e] font-poppins">No. Rekening: {accountNumber}</p>
                   <div className="mt-4">
                     <Image
-                      src="https://via.placeholder.com/150"
+                      src="/"
+                      width={150}
+                      height={150}
                       alt="QR Code Rekening"
                       className="mx-auto rounded-lg shadow-md font-poppins"
                       loading="lazy"

@@ -115,7 +115,7 @@ const Countdown = () => {
 
       <div className="flex flex-col items-center z-40">
         <motion.div
-          className="text-5xl mb-8 font-script"
+          className="text-5xl mb-8 font-greatvibes"
           initial={{ y: -50 }}
           animate={isInView ? { y: 0 } : {}}
           transition={{ duration: 1 }}
@@ -127,7 +127,7 @@ const Countdown = () => {
           {["days", "hours", "minutes", "seconds"].map((unit, index) => (
             <motion.div
               key={index}
-              className="text-xl font-semibold text-center bg-white/15 backdrop-blur-sm rounded-xl p-2"
+              className="text-xl font-semibold text-center bg-white/15 backdrop-blur-sm rounded-xl p-2 font-montserrat"
               initial={{ opacity: 0 }}
               animate={isInView ? { opacity: 1, y: [30, 0] } : {}}
               transition={{ duration: 0.8, delay: index * 0.5 }}
@@ -157,7 +157,7 @@ const Countdown = () => {
         </div>
 
         <motion.div
-          className="text-sm"
+          className="text-sm font-montserrat"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 2.5, duration: 1 }}

@@ -14,9 +14,8 @@ export default {
       },
 
       fontFamily: {
-        adam: ["Adam", "sans-serif"], // Menggunakan font lokal yang sudah didefinisikan
-        poppins: ["Poppins", "sans-serif"],
-        script: ["Style Script", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        greatvibes: ["Great Vibes", "sans-serif"]
       },
     },
   },
