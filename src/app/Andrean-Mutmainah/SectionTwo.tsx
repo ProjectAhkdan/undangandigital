@@ -104,7 +104,7 @@ export default function SectionTwo() {
             transition={{ duration: 1, delay: 2 }}
             className="absolute top-[48%] w-full text-center z-30"
           >
-            <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
+            <h3 className="text-3xl font-semibold pt-5 font-greatvibes text-[#2a374a]">
               Andrean Pratama, M.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
@@ -152,7 +152,7 @@ export default function SectionTwo() {
             transition={{ duration: 1, delay: 3.5 }}
             className="absolute top-[116%] w-full text-center z-30"
           >
-            <h3 className="text-5xl font-extralight pt-5 font-greatvibes text-[#2a374a]">
+            <h3 className="text-3xl font-semibold pt-5 font-greatvibes text-[#2a374a]">
               Mutmainah, S.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
