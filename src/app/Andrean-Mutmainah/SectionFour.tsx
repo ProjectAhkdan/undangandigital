@@ -70,10 +70,10 @@ export default function SectionFour() {
         <div className="h-full w-full text-[#45535e] flex justify-center items-center flex-col">
           <h1 className="text-5xl text-[#45535e] font-greatvibes">akad nikah</h1>
           <div className="w-32 h-[2px] bg-[#45535e] opacity-60 rounded-full mt-2"></div>
-          <h2 className="font-montserrat pt-10 font-medium">SABTU, 25 FEBRUARI 2025</h2>
+          <h2 className="font-montserrat pt-10 font-medium">SABTU, 22 FEBRUARI 2025</h2>
           <div className="flex gap-1 flex-row text-sm font-montserrat font-normal items-center pt-3">
             <IconClock size={20} />
-            <h3>at 09:00 WIB - Selesai</h3>
+            <h3>at 09:00 WIB - 11:00 WIB</h3>
           </div>
           <div className="px-2 text-sm font-montserrat font-normal items-center pt-3">
             <h3>
