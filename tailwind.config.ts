@@ -15,7 +15,8 @@ export default {
 
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
-        greatvibes: ["Great Vibes", "sans-serif"]
+        greatvibes: ["Great Vibes", "sans-serif"],
+        scheherazade: ["Scheherazade New", "sans-serif"]
       },
     },
   },

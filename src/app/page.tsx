@@ -28,11 +28,11 @@ function HomeContent() {
           </h1>
         </div>
         <div className="absolute top-[26%] w-full text-center z-30">
-          <h2 className=" text-4xl font-medium text-[#2a374a] font-montserrat">
+          <h2 className=" text-7xl font-medium text-[#2a374a] font-greatvibes">
             Andrean
           </h2>
-          <h2 className=" text-4xl font-medium text-[#2a374a] font-montserrat">&</h2>
-          <h2 className=" text-4xl font-meidum text-[#2a374a] font-montserrat">
+          <h2 className=" text-5xl font-medium text-[#2a374a] font-greatvibes">&</h2>
+          <h2 className=" text-7xl font-meidum text-[#2a374a] font-greatvibes">
             Mutmainah
           </h2>
           <div className=" w-full flex flex-col justify-center items-center pt-20">
