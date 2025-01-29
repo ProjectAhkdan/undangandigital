@@ -59,7 +59,7 @@ export default function SectionFour() {
               <div className="flex flex-col space-y-3 text-sm items-center">
                 <h3>BCA: 7131198071 (Andrean Pratama)</h3>
                 <a href="" className=" py-1 px-5 w-fit backdrop-blur-sm border-2 border-black/10 rounded-md">Salin </a>
-                <h3>BCA: 7131198071 (Andrean Pratama)</h3>
+                <h3>BSI: 7187667148 (Mutmainah)</h3>
                 <a href="" className=" py-1 px-5 w-fit backdrop-blur-sm border-2 border-black/10 rounded-md">Salin </a>
               </div>
             </div>
