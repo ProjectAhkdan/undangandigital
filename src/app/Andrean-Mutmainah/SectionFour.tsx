@@ -1,6 +1,4 @@
 "use client"
-import { useState, useCallback, useMemo } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { IconClock } from "@tabler/icons-react";
 
