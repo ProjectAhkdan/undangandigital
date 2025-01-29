@@ -17,7 +17,7 @@ export default function SectionOne() {
       </div>
 
       <div className="font-medium text-md">
-        <h1 className=" font-normal font-scheherazade text-3xl mb-3">بسم الله الرحمن الرحيم</h1>
+        <h1 className=" font-normal font-scheherazade text-2xl mb-3">بسم الله الرحمن الرحيم</h1>
         <h2 className="font-semibold font-montserrat">
           Assalamu&apos;alaikum Warahmatullaahi Wabarakaatuh
         </h2>

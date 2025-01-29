@@ -58,6 +58,16 @@ export default function SectionTwo() {
 
         {imagesLoaded && (
           <motion.div
+          initial={{ x: 50, opacity: 0 }}
+          animate={{ x: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
+          transition={{ duration: 1.2, delay: 0.5 }}
+          className="text-[#2a374a] font-semibold text-3xl font-greatvibes">
+            The Widding Of
+          </motion.div>
+        )}
+
+        {imagesLoaded && (
+          <motion.div
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1.2, delay: 0.5 }}
@@ -102,13 +112,13 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 2 }}
-            className="absolute top-[48%] w-full text-center z-30"
+            className="absolute top-[50%] w-full text-center z-30"
           >
             <h3 className="text-3xl font-semibold pt-5 font-greatvibes text-[#2a374a]">
               Andrean Pratama, M.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
-              Putra Bungsu dari
+              Putra Sulung dari
               <div className="pt-3">
                 <p className="font-medium">Bapak M Saleh &</p>
                 <p className="font-medium">Ibu Ernawati</p>
@@ -150,13 +160,13 @@ export default function SectionTwo() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: inView ? 0 : 50, opacity: inView ? 1 : 0 }}
             transition={{ duration: 1, delay: 3.5 }}
-            className="absolute top-[116%] w-full text-center z-30"
+            className="absolute top-[120%] w-full text-center z-30"
           >
             <h3 className="text-3xl font-semibold pt-5 font-greatvibes text-[#2a374a]">
               Mutmainah, S.Pd
             </h3>
             <h4 className="text-sm pt-4 text-[#2a374a] font-montserrat font-bold">
-              Putri Bungsu dari
+              Putri kedua dari
               <div className="pt-3">
                 <p className="font-medium">Bapak Hikmah &</p>
                 <p className="font-medium">Ibu Arfah</p>

@@ -6,6 +6,7 @@ import SectionFour from "./SectionFour";
 import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
+import SectionFive from "./SectionFive";
 
 const Letter = () => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -64,6 +65,7 @@ const Letter = () => {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <SectionFive />
       </div>
       <audio ref={audioRef} src="/sound/pernikahan-kita.mp3" preload="auto" autoPlay />
     </motion.div>

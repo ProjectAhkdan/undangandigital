@@ -44,7 +44,7 @@ function HomeContent() {
               <NameParameter />
             </h3>
             <a
-              className="w-2/4 h-10 font-montserrat text-sm gap-2 text-[#2a374a] bg-white/20 flex justify-center items-center backdrop-blur-sm border border-transparent rounded-2xl hover:shadow-lg transition duration-200 shadow-black font-semibold"
+              className="w-2/4 h-10 font-montserrat text-sm gap-2 text-[#2a374a] bg-white/20 flex justify-center items-center backdrop-blur-sm border border-transparent rounded-2xl hover:shadow-lg shadow-sm transition duration-200 shadow-black/30 font-semibold"
               href={`/Andrean-Mutmainah?to=${to || "All"}`}
             >
               <IconMail size={20} color="#2a374a" />
@@ -54,103 +54,13 @@ function HomeContent() {
         </div>
 
         <Image
-          src="/gapuraislamic.png"
-          alt="gapuraislamic"
+          src="/elementkananatas.png"
+          alt="rantingkayu"
           width={1080}
           height={540}
+          className="absolute -top-[10%] -right-[50%] transform rotate-[30deg] "
         />
 
-        <Image
-          src="/rumput-bawah.png"
-          alt="rumput-bawah"
-          width={400}
-          height={300}
-          className="absolute bottom-0 left-0 w-full"
-        />
-
-        <Image
-          src="/rumput-bawah.png"
-          alt="rumput-kanan"
-          width={1080}
-          height={300}
-          className="absolute bottom-0 right-0 w-full transform scale-x-[-1]"
-        />
-
-        <motion.div
-          animate={{
-            y: [0, 10, 0],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -left-[30%] top-[26%] transform -translate-y-1/2 z-20"
-        >
-          <Image
-            src="/cloud-megamendung.png"
-            alt="megamendung kiri"
-            width={200}
-            height={200}
-          />
-        </motion.div>
-
-        <motion.div
-          animate={{
-            y: [0, 10, 0],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -right-[30%] top-[50%] transform -translate-y-1/2 z-20"
-        >
-          <Image
-            src="/cloud-megamendung-right.png"
-            alt="megamendung kanan"
-            width={200}
-            height={200}
-          />
-        </motion.div>
-
-        <motion.div
-          animate={{
-            rotate: [0, 2, -2, 1, -1, 0],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -left-[30%] top-1/2 transform -translate-y-1/2 z-10"
-        >
-          <Image
-            src="/cover-flower-one.png"
-            alt="bunga kiri"
-            width={200}
-            height={200}
-          />
-        </motion.div>
-
-        <motion.div
-          animate={{
-            rotate: [0, -2, 2, -1, 1, 0],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-          className="absolute -right-[30%] top-1/2 transform -translate-y-1/2 z-10"
-        >
-          <Image
-            src="/cover-flower-one-right.png"
-            alt="bunga kanan"
-            width={200}
-            height={200}
-          />
-        </motion.div>
       </div>
     </div>
   );
