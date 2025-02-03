@@ -1,0 +1,19 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Jalankan lint-staged untuk validasi kode
+if ! npx lint-staged; then
+  echo 'Linting failed. Please fix the issues and try again.'
+  exit 1
+fi
+
+# Jalankan build untuk memastikan kode tidak rusak
+if ! npm run build; then
+  echo 'Build failed. Please fix the errors above and try again.'
+  exit 1
+fi
+
+# Jika semua berhasil
+echo 'All checks passed. Proceeding with commit...'
+
+exit 0

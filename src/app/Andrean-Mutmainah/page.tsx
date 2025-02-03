@@ -7,6 +7,7 @@ import SectionOne from "./SectionOne";
 import SectionThree from "./SectionThree";
 import SectionTwo from "./SectionTwo";
 import SectionFive from "./SectionFive";
+import { weddingData } from "@/constans/data-dev";
 
 const Letter = () => {
   const scrollRef = useRef<HTMLDivElement | null>(null);
@@ -61,8 +62,8 @@ const Letter = () => {
     >
       <button style={{ display: 'none' }} onClick={handleStart} />
       <div>
-        <SectionOne />
-        <SectionTwo />
+        <SectionOne content={weddingData} />
+        <SectionTwo content={weddingData} />
         <SectionThree />
         <SectionFour />
         <SectionFive />

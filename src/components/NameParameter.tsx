@@ -14,7 +14,7 @@ const NameParameter = () => {
   );
 };
 
-export default function Page() {
+export default function Name() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <NameParameter />

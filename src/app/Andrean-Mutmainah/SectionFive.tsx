@@ -14,14 +14,14 @@ export default function SectionFive() {
         />
       </div>
 
-      <div className="relative z-10 flex flex-col space-y-5 bg-white/25 shadow-md shadow-black/25 px-4 rounded-md backdrop-blur-sm justify-center h-screen w-full">
-        <h4 className=" text-black font-scheherazade">
+      <div className="relative z-10 flex flex-col space-y-5 shadow-md shadow-black/25 px-4 rounded-md justify-center h-screen w-full">
+        <h4 className=" text-black font-scheherazade text-xl">
           {" "}
           مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ
           بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ
           لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
         </h4>
-        <p className="text-black font-montserrat">
+        <p className="text-black font-montserrat text-sm">
           “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
           istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa
           tentram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan
