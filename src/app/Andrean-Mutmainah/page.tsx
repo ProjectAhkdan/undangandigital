@@ -57,7 +57,7 @@ const Letter = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="scroll-smooth"
+      className="scroll-smooth "
       ref={scrollRef}
     >
       <button style={{ display: 'none' }} onClick={handleStart} />

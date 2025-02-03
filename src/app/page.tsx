@@ -36,7 +36,7 @@ function HomeContent() {
   const to = searchParams.get("to");
 
   return (
-    <div className="relative flex flex-col max-w-md m-auto overflow-hidden">
+    <div className="relative flex flex-col max-w-md m-auto overflow-hidden h-fit">
       <Image
         src="/backgroundSampul.png"
         alt="backgroundSampul"

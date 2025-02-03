@@ -38,10 +38,9 @@ const Countdown = () => {
         seconds: Math.floor((distance % (1000 * 60)) / 1000),
       };
 
-      // Hanya trigger render jika ada perubahan besar (misal: menit berubah)
       if (newTime.minutes !== timeRemaining.current.minutes) {
         timeRemaining.current = newTime;
-        setForceRender((prev) => prev + 1); // Paksa update tampilan
+        setForceRender((prev) => prev + 1); 
       }
     }
   }, [targetDate]);
@@ -91,10 +90,8 @@ const Countdown = () => {
     <motion.div
       ref={countdownRef}
       className="relative flex text-white font-poppins items-center justify-center max-w-md m-auto overflow-hidden bg-[#435361] bg-noise pt-16 pb-16"
-      initial={{ opacity: 0 }}
-      animate={hasAnimated ? { opacity: 1 } : {}}
-      transition={{ duration: 1.5 }}
     >
+      {/* Gambar dengan animasi */}
       <motion.div
         className="absolute -left-10 top-[20%] transform -translate-y-1/2 rounded-full flex items-center justify-center -z-0"
         initial={{ rotate: 0 }}
@@ -109,31 +106,17 @@ const Countdown = () => {
       </motion.div>
 
       <div className="flex flex-col items-center z-40">
-        <motion.div
-          className="text-5xl mb-8 font-greatvibes"
-          initial={{ y: -50 }}
-          animate={hasAnimated ? { y: 0 } : {}}
-          transition={{ duration: 1 }}
-        >
+        <div className="text-5xl mb-8 font-greatvibes">
           Catat Tanggalnya
-        </motion.div>
+        </div>
 
         <div className="flex space-x-2 mb-6 z-40">
-          {["days", "hours", "minutes", "seconds"].map((unit, index) => (
-            <motion.div
+          {["days", "hours", "minutes", "seconds"].map((unit) => (
+            <div
               key={unit}
               className="text-xl font-semibold text-center bg-white/15 backdrop-blur-sm rounded-xl p-2 font-montserrat"
-              initial={{ opacity: 0 }}
-              animate={hasAnimated ? { opacity: 1, y: [30, 0] } : {}}
-              transition={{ duration: 0.8, delay: index * 0.5 }}
             >
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={hasAnimated ? { opacity: 1 } : {}}
-                transition={{ duration: 0.6, ease: "easeInOut" }}
-              >
-                {formattedTime.current[unit as keyof TimeRemaining]}
-              </motion.div>
+              <div>{formattedTime.current[unit as keyof TimeRemaining]}</div>
               <div className="text-sm mt-1">
                 {unit === "days"
                   ? "Hari"
@@ -143,18 +126,13 @@ const Countdown = () => {
                   ? "Menit"
                   : "Detik"}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
-        <motion.div
-          className="text-sm font-montserrat"
-          initial={{ opacity: 0 }}
-          animate={hasAnimated ? { opacity: 1 } : {}}
-          transition={{ delay: 2.5, duration: 1 }}
-        >
+        <div className="text-sm font-montserrat">
           {weddingData.countdown.formattedDate}
-        </motion.div>
+        </div>
       </div>
     </motion.div>
   );

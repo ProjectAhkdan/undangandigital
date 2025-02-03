@@ -16,7 +16,6 @@ const SectionOne = ({ content }: Contents) => {
           height={200}
           className="mb-20"
           loading="lazy"
-          layout="responsive"
         />
       </div>
 
