@@ -18,11 +18,12 @@ export default function Benner() {
 
   return (
     <motion.div
-      className="z-[9999] gap-2 fixed flex w-full bottom-0 justify-center items-center text-center font-montserrat bg-gray-200 overflow-hidden py-3 rounded-t-md"
+      className="z-[9999] gap-2 fixed flex w-full bottom-0  font-montserrat "
       initial={{ y: 0 }}
       animate={{ y: isVisible ? 0 : 1000 }} 
       transition={{ type: "spring", stiffness: 200, damping: 50, mass: 1, velocity: 5, ease: "easeInOut" }}
     >
+      <div className="relative flex justify-center items-center gap-4 mx-auto max-w-md w-full shadow-[0_-2px_5px_rgba(0,0,0,0.3)] bg-gray-200/35 backdrop-blur-sm overflow-hidden py-3 rounded-t-md">
       <h1 className="text-black font-bold text-xs">Created by</h1>
       <a href="http://" target="_blank" rel="noopener noreferrer">
         <RotatingText
@@ -38,7 +39,8 @@ export default function Benner() {
           rotationInterval={2000}
         />
       </a>
-      <p className="font-medium text-xs">Click Here</p>
+      <p className="font-semibold text-xs">👈Click Here</p>
+      </div>
     </motion.div>
   );
 }
