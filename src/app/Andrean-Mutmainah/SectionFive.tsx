@@ -16,10 +16,7 @@ export default function SectionFive() {
 
       <div className="relative z-10 flex flex-col space-y-5 shadow-md shadow-black/25 px-4 rounded-md justify-center h-screen w-full">
         <h4 className=" text-black font-scheherazade text-xl">
-          {" "}
-          مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ
-          بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ
-          لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
+          وَمِنۡ اٰيٰتِهٖۤ اَنۡ خَلَقَ لَكُمۡ مِّنۡ اَنۡفُسِكُمۡ اَزۡوَاجًا لِّتَسۡكُنُوۡۤا اِلَيۡهَا وَجَعَلَ بَيۡنَكُمۡ مَّوَدَّةً وَّرَحۡمَةً  ؕ اِنَّ فِىۡ ذٰ لِكَ لَاٰيٰتٍ لِّقَوۡمٍ يَّتَفَكَّرُوۡنَ
         </h4>
         <p className="text-black font-montserrat text-sm">
           “Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
