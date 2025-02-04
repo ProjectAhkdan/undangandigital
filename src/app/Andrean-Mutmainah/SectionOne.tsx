@@ -7,7 +7,7 @@ type Contents = {
 
 const SectionOne = ({ content }: Contents) => {
   return (
-    <div className="relative flex text-white font-poppins flex-col items-center justify-center h-fit py-10 max-w-md m-auto overflow-hidden bg-[#435361] bg-noise p-2 text-center">
+    <div className="relative flex text-white font-poppins flex-col items-center justify-center h-screen py-10 max-w-md m-auto overflow-hidden bg-[#435361] bg-noise p-2 text-center">
       <div>
         <Image
           src={content.sectionContent.imageSrc}
