@@ -45,7 +45,7 @@ export interface SectionContent {
     bride: {
       name: "Mutmainah, S.Pd",
       title: "Putri Kedua dari",
-      parents: "Bapak Hikmah & Arfah",
+      parents: "Bapak Hikmah & Ibu Arfah",
       avatar: "/avatarwanita.png",
     },
     backgroundImage: "/bgSectionfour.jpg",
