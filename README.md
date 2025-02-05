@@ -20,7 +20,6 @@ Undangan Digital adalah solusi modern untuk membuat dan membagikan undangan acar
 
 - **Next.js 15** – Framework React untuk aplikasi web modern.  
 - **TypeScript (TSX)** – Supaya lebih aman dan maintainable.  
-- **Supabase** – Backend sebagai layanan (BaaS) berbasis PostgreSQL.  
 - **Tailwind CSS** – Untuk styling yang fleksibel dan cepat.  
 - **React Hooks & useMemo** – Untuk optimasi performa dan pengalaman pengguna tanpa reload.  
 
@@ -41,22 +40,7 @@ npm install
 # atau jika menggunakan yarn
 yarn install
 
-3️⃣ Konfigurasi Supabase
-
-1. Buat akun di Supabase dan buat proyek baru.
-
-
-2. Salin API URL dan Anon Key dari dashboard Supabase.
-
-
-3. Buat file .env.local dan tambahkan:
-
-NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
-NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-
-
-
-4️⃣ Jalankan Aplikasi
+3️⃣ Jalankan Aplikasi
 
 npm run dev
 # atau
@@ -72,7 +56,6 @@ Akses di http://localhost:3000.
 │── /pages       # Halaman utama aplikasi
 │── /public      # Aset gambar & media
 │── /styles      # Styling dengan Tailwind
-│── .env.local   # Konfigurasi Supabase (jangan diunggah)
 │── next.config.js # Konfigurasi Next.js
 │── tsconfig.json  # Konfigurasi TypeScript
 │── package.json   # Dependensi proyek
