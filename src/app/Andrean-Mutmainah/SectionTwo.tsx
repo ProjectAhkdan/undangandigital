@@ -20,7 +20,7 @@ const SectionTwo = ({ content }: Contents) => {
 
       <div className="realtive z-10 flex flex-col pt-20 pb-20">
           <h1 className="text-4xl font-bold font-greatvibes text-[#45535e]">
-            The Wedding Of
+            Walimatul 'ursy
           </h1>
         <div className="pt-10 relative flex justify-center overflow-hidden">
           <div className="bg-white/10 backdrop-blur-sm rounded-md shadow-sm ">
