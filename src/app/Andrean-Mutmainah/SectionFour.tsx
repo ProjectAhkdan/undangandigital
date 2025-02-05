@@ -101,7 +101,6 @@ export default function SectionFour() {
           </div>
         </div>
       </div>
-      </div>
     </div>
   );
 }
