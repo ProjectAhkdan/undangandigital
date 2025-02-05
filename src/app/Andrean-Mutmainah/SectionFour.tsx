@@ -31,7 +31,7 @@ export default function SectionFour() {
   return (
     <div className="relative flex text-white font-poppins flex-col items-center h-fit mx-auto max-w-md overflow-hidden p-8 text-center">
       <Image
-        src="/bgSectionfour.jpg"
+        src="/bgSectionTwo.png"
         alt="backgroundSampul"
         width={1080}
         height={1920}
