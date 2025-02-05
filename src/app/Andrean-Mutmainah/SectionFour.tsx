@@ -38,10 +38,6 @@ export default function SectionFour() {
         className="absolute inset-0 w-full h-full object-cover"
         loading="lazy"
       />
-      
-      <div className="absolute -top-[5%] -left-[30%]">
-        <Image src="/puunblu2.png" alt="Kiri Atas" width={350} height={150} loading="lazy" />
-      </div>
 
       <div className="absolute -top-[5%] -right-[30%] transform scale-x-[-1]">
         <Image src="/puunblu2.png" alt="Kiri Atas" width={350} height={150} loading="lazy" />
