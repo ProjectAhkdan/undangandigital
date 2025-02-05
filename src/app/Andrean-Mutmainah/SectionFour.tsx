@@ -6,8 +6,8 @@ import Image from "next/image";
 export default function SectionFour() {
   const [copied, setCopied] = useState<string | null>(null);
 
-  const bcaAccount = useMemo(() => "7131198071 (Andrean Pratama)", []);
-  const bsiAccount = useMemo(() => "7187667148 (Mutmainah)", []);
+  const bcaAccount = useMemo(() => "BCA: 7131198071 (Andrean Pratama)", []);
+  const bsiAccount = useMemo(() => "BSI: 7187667148 (Mutmainah)", []);
 
   const copyToClipboard = async (text: string) => {
     try {
@@ -95,7 +95,7 @@ export default function SectionFour() {
                     onClick={() => copyToClipboard("7187667148")}
                     className="py-1 px-5 w-fit backdrop-blur-sm border-2 border-black/10 rounded-md ml-2"
                   >
-                    {copied === "7187667148" ? "Copied!" : "Salin"}
+                    {copied === "7187667148" ? "Succes" : "Salin"}
                   </button>
                 </div>
               </div>
