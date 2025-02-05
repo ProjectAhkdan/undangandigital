@@ -28,7 +28,7 @@ export default function SectionFive() {
         <span className="pt-5 font-bold text-black/45">QS Ar-Rum: 21</span>
       </div>
       <div className="relative z-10 flex flex-col space-y-5 shadow-md  bg-white/10 backdrop-blur-md px-4 justify-center h-10 w-full">
-        <h3 className="text-black/70 text-sm font-normal">Buat Undanganmu, <a className="text-red-600 font-semibold" target="_blank" href="https://wa.me/628817224077?text=Saya%20mau%20buat%20Undangan%20Digital">Klik disini </a></h3>
+        <h3 className="text-black/70 text-sm font-normal">Buat undangan digitalmu sekarang, <a className="text-red-600 font-semibold" target="_blank" href="https://wa.me/628817224077?text=Saya%20mau%20buat%20Undangan%20Digital">Klik disini </a></h3>
       </div>
     </div>
   );
