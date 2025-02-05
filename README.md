@@ -51,14 +51,23 @@ Akses di http://localhost:3000.
 📜 Struktur Proyek
 
 /undangandigital
-│── /components  # Komponen UI reusable
-│── /data        # Tipe data & konfigurasi
-│── /pages       # Halaman utama aplikasi
-│── /public      # Aset gambar & media
-│── /styles      # Styling dengan Tailwind
-│── next.config.js # Konfigurasi Next.js
-│── tsconfig.json  # Konfigurasi TypeScript
-│── package.json   # Dependensi proyek
+│── /public          # Berisi aset statis seperti gambar
+│── /src             # Kode sumber utama aplikasi
+│   ├── /app         # Folder utama untuk halaman dan routing
+│   │   ├── layout.tsx   # Tata letak utama aplikasi
+│   │   ├── page.tsx     # Halaman utama aplikasi
+│   │
+│   ├── /components   # Komponen UI yang dapat digunakan kembali
+│   │   ├── Card.tsx        # Komponen kartu undangan
+│   ├── /constants    # Berisi konstanta atau konfigurasi statis
+│   │
+│── .gitignore        # File yang harus diabaikan Git
+│── README.md         # Dokumentasi proyek
+│── eslint.config.mjs # Konfigurasi ESLint
+│── next.config.ts    # Konfigurasi Next.js
+│── package.json      # Dependensi proyek
+│── tailwind.config.ts# Konfigurasi Tailwind CSS
+│── tsconfig.json     # Konfigurasi TypeScript
 
 💡 Kontribusi
 
