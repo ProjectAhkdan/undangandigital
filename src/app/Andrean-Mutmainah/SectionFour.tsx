@@ -72,7 +72,7 @@ export default function SectionFour() {
         </div>
 
         <div className="h-full w-full text-[#45535e] flex justify-center items-center flex-col">
-          <h1 className="text-5xl text-[#45535e] font-greatvibes pt-20">Send Your Gift</h1>
+          <h1 className="text-5xl text-[#45535e] font-greatvibes pt-20">Amplop Online</h1>
           <div className="w-32 h-[2px] bg-[#45535e] opacity-60 rounded-full mt-2"></div>
           <h2 className="font-montserrat pt-10 font-medium px-5 text-sm text-center">
             Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Dan Jika Memberi adalah ungkapan tanda kasih Anda, Anda dapat memberi kado secara cashless.
