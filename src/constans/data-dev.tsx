@@ -48,7 +48,7 @@ export interface SectionContent {
       parents: "Bapak Hikmah & Ibu Arfah",
       avatar: "/avatarwanita.png",
     },
-    backgroundImage: "/bgSectionfour.jpg",
+    backgroundImage: "/bgSectionTwo.png",
     countdown: {
       eventDate: "2025-02-22T09:00:00+07:00",
       formattedDate: "Sabtu, 22 Februari 2025",
