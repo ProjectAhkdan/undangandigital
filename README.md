@@ -89,5 +89,3 @@ Proyek ini dilisensikan di bawah MIT License – Anda bebas menggunakan dan meng
 
 Dibuat dengan ❤️ oleh ProjectAhkdan
 
-README ini sudah rapi, profesional, dan mudah dipahami. Anda bisa menambahkan gambar atau screenshot untuk memperjelas tampilan aplikasi.
-
