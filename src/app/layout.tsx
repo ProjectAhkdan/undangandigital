@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Benner from "@/components/Benner";
 
 export const metadata: Metadata = {
   title: "Undangan Pernikahan Andrean & Mutmainah",
@@ -39,7 +38,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
-        <Benner />
       </body>
     </html>
   );
