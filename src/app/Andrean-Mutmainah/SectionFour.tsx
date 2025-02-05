@@ -37,10 +37,12 @@ export default function SectionFour() {
         height={1920}
         className="absolute inset-0 w-full h-full object-cover"
         loading="lazy"
-      />
+      /> 
+
+      <div className="absolute -top-[5%] -left-[30%]><Image src="/puunblu2.png" alt="Kiri Atas" width={350} height={150} loading="lazy" /></div>
 
       <div className="absolute -top-[5%] -right-[30%] transform scale-x-[-1]">
-        <Image src="/puunblu2.png" alt="Kiri Atas" width={350} height={150} loading="lazy" />
+        <Image src="/puunblu2.png" alt="Kanan Atas" width={350} height={150} loading="lazy" />
       </div>
 
       <div className="relative z-10 max-w-md flex flex-col h-fit py-48 w-full bg-white/15 backdrop-blur-sm border-1 shadow-lg border-black rounded-b-full rounded-t-full">
@@ -99,9 +101,6 @@ export default function SectionFour() {
           </div>
         </div>
       </div>
-
-      <div className="absolute -bottom-[10%] -left-1/3">
-        <Image src="/dafaf.png" alt="Kiri Bawah" width={650} height={402} loading="lazy" />
       </div>
     </div>
   );
