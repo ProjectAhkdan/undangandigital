@@ -1,7 +1,3 @@
-Berikut README.md yang lengkap, rapi, dan profesional untuk repositori GitHub Anda:
-
-
----
 
 # 📜 Undangan Digital
 
