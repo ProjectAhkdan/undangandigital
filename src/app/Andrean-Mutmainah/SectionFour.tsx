@@ -7,8 +7,7 @@ export default function SectionFour() {
   const [copied, setCopied] = useState<string | null>(null);
 
   const bcaAccount = useMemo(() => "BCA: 7131198071 (Andrean Pratama)", []);
-  const bsiAccount = useMemo(() => "BSI: 7187667148 (Mutmainah)", []);
-
+ 
   const copyToClipboard = async (text: string) => {
     try {
       if (typeof navigator !== "undefined" && navigator.clipboard) {
@@ -87,15 +86,6 @@ export default function SectionFour() {
                     className="py-1 px-5 w-fit backdrop-blur-sm border-2 border-black/10 rounded-md ml-2"
                   >
                     {copied === "7131198071" ? "Succes" : "Salin"}
-                  </button>
-                </div>
-                <div className="flex items-center">
-                  <h3>{bsiAccount}</h3>
-                  <button
-                    onClick={() => copyToClipboard("7187667148")}
-                    className="py-1 px-5 w-fit backdrop-blur-sm border-2 border-black/10 rounded-md ml-2"
-                  >
-                    {copied === "7187667148" ? "Succes" : "Salin"}
                   </button>
                 </div>
               </div>
